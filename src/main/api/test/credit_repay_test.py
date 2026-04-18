@@ -1,7 +1,7 @@
 import pytest
 from sqlalchemy.orm import Session
 
-from main.api.classes.api_manager import ApiManager
+from src.main.api.classes.api_manager import ApiManager
 from src.main.api.models.credit_repay_request import CreditRepayRequest
 from src.main.api.models.credit_request import CreditRequest
 from src.main.api.models.deposit_account_request import DepositAccountRequest
